@@ -61,24 +61,25 @@ margin_right = 1010.0
 margin_bottom = 548.0
 
 [node name="DocumentPane" type="PanelContainer" parent="ApplicationContainer/MainContainer/ApplicationPanes"]
-margin_right = 231.0
+margin_right = 422.0
 margin_bottom = 548.0
+size_flags_horizontal = 3
 script = ExtResource( 3 )
 
 [node name="DocumentPaneContainer" type="VBoxContainer" parent="ApplicationContainer/MainContainer/ApplicationPanes/DocumentPane"]
 margin_left = 7.0
 margin_top = 7.0
-margin_right = 224.0
+margin_right = 415.0
 margin_bottom = 541.0
 
 [node name="NotebookBarContainer" type="PanelContainer" parent="ApplicationContainer/MainContainer/ApplicationPanes/DocumentPane/DocumentPaneContainer"]
-margin_right = 217.0
+margin_right = 408.0
 margin_bottom = 34.0
 
 [node name="NotebookBarLayout" type="HBoxContainer" parent="ApplicationContainer/MainContainer/ApplicationPanes/DocumentPane/DocumentPaneContainer/NotebookBarContainer"]
 margin_left = 7.0
 margin_top = 7.0
-margin_right = 210.0
+margin_right = 401.0
 margin_bottom = 27.0
 
 [node name="NotebookSelectionButton" type="OptionButton" parent="ApplicationContainer/MainContainer/ApplicationPanes/DocumentPane/DocumentPaneContainer/NotebookBarContainer/NotebookBarLayout"]
@@ -100,33 +101,34 @@ text = "<"
 
 [node name="DocumentTreePanel" type="PanelContainer" parent="ApplicationContainer/MainContainer/ApplicationPanes/DocumentPane/DocumentPaneContainer"]
 margin_top = 38.0
-margin_right = 217.0
+margin_right = 408.0
 margin_bottom = 534.0
 size_flags_vertical = 3
 
 [node name="DocumentTree" type="Tree" parent="ApplicationContainer/MainContainer/ApplicationPanes/DocumentPane/DocumentPaneContainer/DocumentTreePanel"]
 margin_left = 7.0
 margin_top = 7.0
-margin_right = 210.0
+margin_right = 401.0
 margin_bottom = 489.0
+hide_root = true
 
 [node name="TreeButtonsLayout" type="HBoxContainer" parent="ApplicationContainer/MainContainer/ApplicationPanes/DocumentPane/DocumentPaneContainer/DocumentTreePanel"]
 margin_left = 7.0
 margin_top = 469.0
-margin_right = 210.0
+margin_right = 401.0
 margin_bottom = 489.0
 size_flags_vertical = 8
 alignment = 2
 
 [node name="Button" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/DocumentPane/DocumentPaneContainer/DocumentTreePanel/TreeButtonsLayout"]
-margin_left = 183.0
-margin_right = 203.0
+margin_left = 374.0
+margin_right = 394.0
 margin_bottom = 20.0
 text = "+"
 flat = true
 
 [node name="TextEditorPane" type="PanelContainer" parent="ApplicationContainer/MainContainer/ApplicationPanes"]
-margin_left = 243.0
+margin_left = 434.0
 margin_right = 1010.0
 margin_bottom = 548.0
 script = ExtResource( 4 )
@@ -134,222 +136,217 @@ script = ExtResource( 4 )
 [node name="TextEditorContainer" type="VBoxContainer" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane"]
 margin_left = 7.0
 margin_top = 7.0
-margin_right = 760.0
+margin_right = 569.0
 margin_bottom = 541.0
 
 [node name="FilenameContainer" type="PanelContainer" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer"]
-margin_right = 753.0
+margin_right = 562.0
 margin_bottom = 28.0
 
 [node name="FilenameLabel" type="Label" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FilenameContainer"]
 margin_left = 7.0
 margin_top = 7.0
-margin_right = 746.0
+margin_right = 555.0
 margin_bottom = 21.0
 text = "Filename"
 align = 1
 
 [node name="FormattingBarPanel" type="PanelContainer" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer"]
 margin_top = 32.0
-margin_right = 753.0
+margin_right = 562.0
 margin_bottom = 66.0
 
 [node name="FormattingBarLayout" type="HBoxContainer" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel"]
 margin_left = 7.0
 margin_top = 7.0
-margin_right = 746.0
+margin_right = 555.0
 margin_bottom = 27.0
 alignment = 1
 
 [node name="FormattingButton" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_right = 28.0
+margin_right = 20.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton2" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 32.0
-margin_right = 60.0
+margin_left = 24.0
+margin_right = 44.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton3" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 64.0
-margin_right = 92.0
+margin_left = 48.0
+margin_right = 68.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton4" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 96.0
-margin_right = 125.0
+margin_left = 72.0
+margin_right = 92.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton5" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 129.0
-margin_right = 157.0
+margin_left = 96.0
+margin_right = 116.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton6" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 161.0
-margin_right = 189.0
+margin_left = 120.0
+margin_right = 140.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton7" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 193.0
-margin_right = 222.0
+margin_left = 144.0
+margin_right = 164.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton8" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 226.0
-margin_right = 254.0
+margin_left = 168.0
+margin_right = 188.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton9" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 258.0
-margin_right = 286.0
+margin_left = 192.0
+margin_right = 212.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton10" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 290.0
-margin_right = 319.0
+margin_left = 216.0
+margin_right = 236.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton11" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 323.0
-margin_right = 351.0
+margin_left = 240.0
+margin_right = 260.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton12" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 355.0
-margin_right = 383.0
+margin_left = 264.0
+margin_right = 284.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton13" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 387.0
-margin_right = 415.0
+margin_left = 288.0
+margin_right = 308.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton14" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 419.0
-margin_right = 448.0
+margin_left = 312.0
+margin_right = 332.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton15" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 452.0
-margin_right = 480.0
+margin_left = 336.0
+margin_right = 356.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton16" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 484.0
-margin_right = 512.0
+margin_left = 360.0
+margin_right = 380.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton17" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 516.0
-margin_right = 545.0
+margin_left = 384.0
+margin_right = 404.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton18" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 549.0
-margin_right = 577.0
+margin_left = 408.0
+margin_right = 428.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton19" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 581.0
-margin_right = 609.0
+margin_left = 432.0
+margin_right = 452.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton20" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 613.0
-margin_right = 642.0
+margin_left = 456.0
+margin_right = 476.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton21" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 646.0
-margin_right = 674.0
+margin_left = 480.0
+margin_right = 500.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton22" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 678.0
-margin_right = 706.0
+margin_left = 504.0
+margin_right = 524.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="FormattingButton23" type="Button" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/FormattingBarPanel/FormattingBarLayout"]
-margin_left = 710.0
-margin_right = 739.0
+margin_left = 528.0
+margin_right = 548.0
 margin_bottom = 20.0
 size_flags_horizontal = 3
 text = "X"
 
 [node name="TextEditorPanel" type="PanelContainer" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer"]
 margin_top = 70.0
-margin_right = 753.0
+margin_right = 562.0
 margin_bottom = 502.0
 size_flags_vertical = 3
 
 [node name="TextEditor" type="TextEdit" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/TextEditorPanel"]
 margin_left = 7.0
 margin_top = 7.0
-margin_right = 746.0
+margin_right = 555.0
 margin_bottom = 425.0
-text = "# This is a text document
-
-More information here, *yadda yadda yadda*. You know the drill. **BUT** that's not enough words to trigger the word wrap, but now this is, so bye.
-
-P.S. Your hair looks really nice today"
 show_line_numbers = true
 draw_tabs = true
 wrap_enabled = true
 
 [node name="DocumentStatsPanel" type="PanelContainer" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer"]
 margin_top = 506.0
-margin_right = 753.0
+margin_right = 562.0
 margin_bottom = 534.0
 
 [node name="DocumentStatsLayout" type="HBoxContainer" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/DocumentStatsPanel"]
 margin_left = 7.0
 margin_top = 7.0
-margin_right = 746.0
+margin_right = 555.0
 margin_bottom = 21.0
 
 [node name="CharacterCountLabel" type="Label" parent="ApplicationContainer/MainContainer/ApplicationPanes/TextEditorPane/TextEditorContainer/DocumentStatsPanel/DocumentStatsLayout"]
@@ -431,8 +428,10 @@ margin_bottom = 20.0
 text = "Cancel"
 
 [connection signal="pressed" from="ApplicationContainer/MenuContainer/MenuLayoutContainer/MenuButtonsContainer3/QuitButton" to="." method="_on_QuitButton_pressed"]
+[connection signal="document_activated" from="ApplicationContainer/MainContainer/ApplicationPanes/DocumentPane" to="." method="_on_DocumentPane_document_activated"]
 [connection signal="item_selected" from="ApplicationContainer/MainContainer/ApplicationPanes/DocumentPane/DocumentPaneContainer/NotebookBarContainer/NotebookBarLayout/NotebookSelectionButton" to="ApplicationContainer/MainContainer/ApplicationPanes/DocumentPane" method="_on_NotebookSelectionButton_item_selected"]
 [connection signal="pressed" from="ApplicationContainer/MainContainer/ApplicationPanes/DocumentPane/DocumentPaneContainer/NotebookBarContainer/NotebookBarLayout/NewNotebookButton" to="." method="_on_NewNotebookButton_pressed"]
+[connection signal="item_activated" from="ApplicationContainer/MainContainer/ApplicationPanes/DocumentPane/DocumentPaneContainer/DocumentTreePanel/DocumentTree" to="ApplicationContainer/MainContainer/ApplicationPanes/DocumentPane" method="_on_DocumentTree_item_activated"]
 [connection signal="new_notebook" from="PopupControls" to="." method="_on_new_notebook"]
 [connection signal="pressed" from="PopupControls/NewNotebookDialog/NewNotebookPanel/NewNotebookDialogLayout/NewNotebookButtons/NewNotebookAddButton" to="PopupControls" method="_on_NewNotebookAddButton_pressed"]
 [connection signal="pressed" from="PopupControls/NewNotebookDialog/NewNotebookPanel/NewNotebookDialogLayout/NewNotebookButtons/NewNotebookCancelButton" to="PopupControls" method="_on_NewNotebookCancelButton_pressed"]
